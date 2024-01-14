@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+body{
+  background-color: #436260;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.no-margin{
+  margin: unset;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* WeatherDashboard.css */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weather {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
   flex-direction: column;
+}
+
+.transparent-card {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* SearchBar.css */
+
+.search-bar-div{
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.search-bar {
+  background-color: transparent;
+  font-size: 16px;
+  outline: none; /* Remove the default focus outline */
+  transition: border-color 0.3s; /* Add a transition for a smooth color change */
+}
+
+/* Login.css */
+.form-div{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height:  70vh;  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-form{
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
 }
