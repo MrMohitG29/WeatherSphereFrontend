@@ -31,7 +31,7 @@ export default function NavBar({ title }) {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="">{title}</Link>
+                    <Link className="navbar-brand" to="WeatherSphereFrontend">{title}</Link>
                     <form className="d-flex">
                         <input
                             className="form-control me-2"

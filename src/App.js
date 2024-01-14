@@ -16,7 +16,7 @@ export default function App() {
         <Route path='Login' element={
              <Login/>
           } />
-         <Route path='' element={
+         <Route path='WeatherSphereFrontend' element={
              <WeatherDashboard/>
           } />
         </Routes>
