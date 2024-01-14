@@ -1,6 +1,6 @@
 // config.js
 const config = {
-    url: 'http://127.0.0.1:8000',
+    url: 'http://172.105.41.143:8000/',
   };
   
   export default config;
